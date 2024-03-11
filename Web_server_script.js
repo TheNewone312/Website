@@ -9,7 +9,7 @@ function getFelhasznalonev(){
     let köv_window = false
     let Cím2 = document.getElementById('Cím2')
     
-    if (FelhasznalonevValue  == "AdAm084723JIkwéaojKUiwdjIknfsoIWhjLjoh@Đ@[ĐÄÄ<Đ|Ä$ŁÄä$]í]n[fálŁlnk$"){
+    if (FelhasznalonevValue  == ""){
         joFelhasz = true
     }
     else{
@@ -21,11 +21,4 @@ function getFelhasznalonev(){
     else{
         joJelszo = false
     }
-    const fs = require('fs');
-
-// A fájl elérési útvonala és neve
-    const filename = "C:\Users\everl\OneDrive\Dokumentumok\Python_programs\Web_server\Válasz.txt";
-// A fájlban lévő tartalom
-    const content = 'Ez a szöveg lesz beleírva a fájlba.';
-
 }
